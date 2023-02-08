@@ -465,10 +465,19 @@ footer figure a {
     width: 2.5rem;
     height: 2.5rem;
   }
+  main .links li:hover {
+    width: 90%;
+  }
+  main .links li:nth-of-type(2):hover {
+    width: 100%;
+  }
   footer .footer-bar {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 0 auto;
+  }
+  footer figure:hover {
+    margin-top: 0.5rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -5,6 +5,7 @@ $black: #333;
 $orange: orange;
 $blue: blue;
 $purple: purple;
+
 html {
     height: 100%;
     width: 100%;
@@ -336,10 +337,29 @@ footer {
             height: 2.5rem;
         }
     }
+    main {
+        .links {
+            li {
+                &:hover {
+                    width: 90%;
+                }
+                &:nth-of-type(2) {
+                    &:hover {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
     footer {
         .footer-bar {
             flex-wrap: wrap;
             margin: 0 auto;
+        }
+        figure {
+            &:hover {
+                margin-top: 0.5rem;
+            }
         }
     }
 }
